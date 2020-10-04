@@ -6,6 +6,7 @@ body{
 #myHeader a:hover{
     color:midnightblue;
 }
+
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -16,9 +17,18 @@ h1 {
     font-weight: 700;   
 }
 
-
-
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+figure {
+    padding: 20px;
+}
+
+.card {
+    width:18rem;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px
 }
