@@ -1,3 +1,3 @@
 # Portfolio
  
-My personal portfolio. Yo be updated as needed. 
+My personal portfolio. To be updated as needed. 
