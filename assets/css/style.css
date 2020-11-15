@@ -1,38 +1,91 @@
+
 body{
     padding-top: 100px;
-    background-color: rgb(221, 230, 240);
+    background-color: whitesmoke;
 }
 
-#myHeader a:hover{
-    color:midnightblue;
+#myHeader h1 {
+    color:whitesmoke;
+}
+
+#myHeader a {
+    font-family: 'Libre Caslon Text'
 }
 
 h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Caslon Text', Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+    
 }
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Caslon Text', serif;
     text-align: center;
-    font-weight: 700;   
+    font-weight: 500;  
+    
 }
 
 h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Libre Caslon Text', Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    text-align: center
 }
 
 figure {
-    padding: 20px;
+    padding: 40px;
 }
 
-.card {
-    width:18rem;
-    width: 50%;
-    margin:auto;
+
+#aboutMe {
+    padding-left: 5%;
+
 }
 
-.form {
-    width: 50%;
-    margin:auto; 
+.container {
+    padding-bottom: 50px;
 }
+
+.portfolioPhoto {
+    width: 400px;
+    height: 400px;
+
+}
+
+#profile {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.myButton{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+    background:#343a40;
+    color:whitesmoke;
+	padding:16px 22px;
+	display:inline-block;
+}
+.myButton:hover{
+	background:#373d4c;
+	color:#CCCCCC;
+    text-decoration:none;
+
+}
+
+section {
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+    align-content: center;
+}
+ 
+footer {
+    background:#343a40;
+}
+
+footer p {
+    color: whitesmoke;
+}
+
