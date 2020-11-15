@@ -53,7 +53,7 @@ figure {
 #profile {
 	width: 250px;
 	height: 250px;
-	object-fit: cover;
+    object-fit: cover;
 }
 
 .myButton{
