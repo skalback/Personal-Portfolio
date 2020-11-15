@@ -40,10 +40,6 @@ figure {
 
 }
 
-.container {
-    padding-bottom: 50px;
-}
-
 .portfolioPhoto {
     width: 400px;
     height: 400px;
@@ -54,8 +50,13 @@ figure {
 	width: 250px;
 	height: 250px;
     object-fit: cover;
+    display: inline-flex;
+    margin: 50px;
 }
 
+.container {
+    padding-bottom: 30px;
+}
 .myButton{
 	font-size:14px;
 	font-family: 'Open Sans', sans-serif;
@@ -63,7 +64,7 @@ figure {
     background:#343a40;
     color:whitesmoke;
 	padding:16px 22px;
-	display:inline-block;
+	display:inline-flex;
 }
 .myButton:hover{
 	background:#373d4c;
@@ -73,7 +74,8 @@ figure {
 }
 
 section {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -87,5 +89,10 @@ footer {
 
 footer p {
     color: whitesmoke;
+}
+
+.subHeading {
+    font-family: 'Libre Caslon Text';
+
 }
 
